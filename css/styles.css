@@ -1,10 +1,19 @@
 body {
-    background-color: #fff;
-    color: #32cd32;
-    font-family: "Hermit";
+    background-color: #E5FBBD;
+    color: #0066FF;
     text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
 }
 
-#our-canvas {
-    border: 2px solid #32cd32;
+.uploader, .dropLoader, #drop-area{
+	color: #FF2014;
+	font-family: "DejaVu Sans Mono";
+}
+
+#color {
+	color: #32cd32;
+}
+
+#canvas, #canvasTwo {
+	border: 2px solid #32cd32;
 }

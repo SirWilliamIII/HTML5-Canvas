@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-
 <html>
         <head>
                 <meta charset="utf-8">
-                <title>HTML-5 Canvas --Single Image Loading</title>
+                <title>HTML-5 Canvas</title>
                 <link rel="stylesheet" href="css/styles.css">
+
         </head>
-
         <body>
-                <h1>Image File Feeder: </h1>
-                <h2>Canvas Tag: </h2>
+                <h1>Image file uploader</h1>
+                <h2 class="uploader"><em>or use file uploader</em></h2>
+                <input id="uploaded-file" type="file" />
+                <h3 class="uploader" id="color">The Canvas Tag</h3>
+                <canvas id="canvas" class="image-container" height: "300" width: "300"></canvas>
 
+                
 
+                <h1>Drag and Drop</h1>
+                <h2 id="drop-area" class="drop-area"><em>drag and drop image here</em></h2>
+                <h3 class="dropLoader" id="color">Canvas Tag #2</h3>
+                <canvas id="canvasTwo" class="images" height: "300" width: "300"></canvas>
 
-                <input type="file" id="uploaded-file" />
-                <canvas id="our-canvas" class="image-container" height: "300" width: "300"></canvas>
-                <script src="js/scripts.js">
-                </script>
+                <script src="js/jquery-2.1.1.min.js"></script>
+                <script src="js/scripts.js"></script>
         </body>
 </html>
